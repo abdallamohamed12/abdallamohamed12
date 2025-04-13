@@ -17,7 +17,9 @@
     <!-- Text element with the clipPath applied -->
     <text x="0" y="50" font-family="Courier New, monospace" font-size="40" fill="#0366d6"
         clip-path="url(#clip)">
-        A Passionate Android Developer
+
+        Welcome to My GitHub Profile 😊
+
         <!-- Opacity stays at 1 for 5 seconds (first 5/6 of cycle) then fades out over the last second -->
         <animate attributeName="opacity"
             values="1;1;0"
