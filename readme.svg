@@ -1,0 +1,29 @@
+<svg width="1000" height="100" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define a clipping path for the writing effect -->
+    <defs>
+        <clipPath id="clip">
+            <!-- The rectangle grows from width=0 to 1000 over 3s, then holds until 6s -->
+            <rect x="0" y="0" width="0" height="100">
+                <animate attributeName="width"
+                    values="0;1000;1000"
+                    keyTimes="0;0.5;1"
+                    dur="6s"
+                    repeatCount="indefinite"
+                    fill="freeze"/>
+            </rect>
+        </clipPath>
+    </defs>
+
+    <!-- Text element with the clipPath applied -->
+    <text x="0" y="50" font-family="Courier New, monospace" font-size="40" fill="#0366d6"
+        clip-path="url(#clip)">
+        I am Abdalla Mohamed An Android Developer
+        <!-- Opacity stays at 1 for 5 seconds (first 5/6 of cycle) then fades out over the last second -->
+        <animate attributeName="opacity"
+            values="1;1;0"
+            keyTimes="0;0.833;1"
+            dur="6s"
+            repeatCount="indefinite"
+            fill="freeze"/>
+    </text>
+</svg>
