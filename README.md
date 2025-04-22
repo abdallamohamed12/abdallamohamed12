@@ -1,9 +1,6 @@
 <h1 align="center">Hi 👋, I'm Abdalla Mohamed</h1>
 <h3 align="center">Android Developer | Problem Solver | CS Student</h3>
 
-<p align="center">
-  <img src="https://github.com/abdallamohamed12/My_Profile/blob/main/readme.svg" alt="Animated Name" />
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=abdallamohamed12&label=Profile%20views&color=0e75b6&style=flat" alt="abdallamohamed12" />
